@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DependentLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_content"
+    ohos:width="match_parent"
+    ohos:orientation="vertical"
+    >
+    <Image
+        ohos:id="$+id:image_order"
+        ohos:height="70fp"
+        ohos:width="70fp"
+        ohos:image_src="$media:weathertype"
+        ohos:scale_mode="stretch"
+        />
+    <Text
+        ohos:id="$+id:wlist_tv2"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:weight="300"
+        ohos:right_of="$id:image_order"
+        ohos:text="id:0"
+        ohos:margin="15vp"
+        ohos:text_color="#FF0088FF"
+        ohos:text_size="34fp"
+        />
+    <Text
+        ohos:id="$+id:wlist_tv3"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:weight="300"
+        ohos:right_of="$id:wlist_tv2"
+        ohos:text="暴风"
+        ohos:margin="15vp"
+        ohos:text_color="#FF0088FF"
+        ohos:text_size="34fp"
+        />
+</DependentLayout>

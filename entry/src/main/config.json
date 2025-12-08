@@ -1,0 +1,57 @@
+{
+  "app": {
+    "bundleName": "com.example.finalwork",
+    "vendor": "example",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {
+    "default":{
+      "network": {"cleartextTraffic": true
+      }
+    }
+  },
+  "module": {
+    "package": "com.example.finalwork",
+    "name": ".MyApplication",
+    "mainAbility": "com.example.finalwork.MainAbility",
+    "deviceType": [
+      "phone"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry",
+      "installationFree": false
+    },
+    "reqPermissions": [
+      {
+        "name": "ohos.permission.INTERNET"
+      }
+    ],
+    "abilities": [
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ],
+        "name": "com.example.finalwork.MainAbility",
+        "description": "Weather",
+        "icon": "$media:weather",
+        "label": "$string:entry_MainAbility",
+        "launchType": "standard",
+        "orientation": "unspecified",
+        "visible": true,
+        "type": "page"
+      }
+    ]
+  }
+}
